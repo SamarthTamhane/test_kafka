@@ -10,8 +10,11 @@ public class producerDemo {
     public static void main(String[] args) {
         String bootstarpServers = "localhost:9092";
 
+ rohit
         //Samarth
         //CHess
+
+        //SAmarth Branch>>>>>>> master
       // create properties file for kafka
         Properties properties = new Properties();
 /* This is the old way of setting properties
