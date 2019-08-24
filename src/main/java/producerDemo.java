@@ -15,7 +15,7 @@ public class producerDemo {
       // create properties file for kafka
         Properties properties = new Properties();
 /* This is the old way of setting properties
-
+chnaged
         properties.setProperty("bootstrap.servers", bootstarpServers);
         properties.setProperty("key.serializer",StringSerializer.class.getName());
         properties.setProperty("value.serializer",StringSerializer.class.getName());
