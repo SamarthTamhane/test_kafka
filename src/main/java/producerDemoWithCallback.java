@@ -45,7 +45,9 @@ properties.setProperty(ProducerConfig.ACKS_CONFIG,"all");
                 }
             }});
 
-    producer.flush();
+    //producer.flush();
+
+    //System.out.println("Rohit");
 
 
     }
