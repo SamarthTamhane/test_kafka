@@ -10,12 +10,20 @@ public class producerDemo {
     public static void main(String[] args) {
         String bootstarpServers = "localhost:9092";
 
-        //SAmarth Branch
+ rohit
+        //Samarth
+        //CHess
 
+        //SAmarth Branch>>>>>>> master
       // create properties file for kafka
         Properties properties = new Properties();
+ samarth
 /* This is the old way of setting properties
 chnaged
+=======
+/* This is the old way of setting prmastermasteroperties
+
+ master
         properties.setProperty("bootstrap.servers", bootstarpServers);
         properties.setProperty("key.serializer",StringSerializer.class.getName());
         properties.setProperty("value.serializer",StringSerializer.class.getName());
