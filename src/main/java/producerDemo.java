@@ -17,13 +17,19 @@ public class producerDemo {
         //SAmarth Branch>>>>>>> master
       // create properties file for kafka
         Properties properties = new Properties();
+ samarth
+/* This is the old way of setting properties
+chnaged
+=======
 /* This is the old way of setting prmastermasteroperties
 
+ master
         properties.setProperty("bootstrap.servers", bootstarpServers);
         properties.setProperty("key.serializer",StringSerializer.class.getName());
         properties.setProperty("value.serializer",StringSerializer.class.getName());
         properties.setProperty("acks","all");
 */
+//ROHIT PUSH INTO SAMARTH
 
 properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,bootstarpServers);
 properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,StringSerializer.class.getName() );
