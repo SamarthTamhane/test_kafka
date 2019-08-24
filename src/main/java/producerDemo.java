@@ -21,6 +21,7 @@ chnaged
         properties.setProperty("value.serializer",StringSerializer.class.getName());
         properties.setProperty("acks","all");
 */
+//ROHIT PUSH INTO SAMARTH
 
 properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,bootstarpServers);
 properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,StringSerializer.class.getName() );
