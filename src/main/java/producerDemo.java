@@ -17,7 +17,7 @@ public class producerDemo {
         //SAmarth Branch>>>>>>> master
       // create properties file for kafka
         Properties properties = new Properties();
-/* This is the old way of setting properties
+/* This is the old way of setting prmastermasteroperties
 
         properties.setProperty("bootstrap.servers", bootstarpServers);
         properties.setProperty("key.serializer",StringSerializer.class.getName());
