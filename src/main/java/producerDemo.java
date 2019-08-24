@@ -30,6 +30,7 @@ chnaged
         properties.setProperty("acks","all");
 */
 //ROHIT PUSH INTO SAMARTH
+        //issue reso;ve
 
 properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG,bootstarpServers);
 properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,StringSerializer.class.getName() );
