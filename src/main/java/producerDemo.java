@@ -11,6 +11,7 @@ public class producerDemo {
         String bootstarpServers = "localhost:9092";
 
         //Samarth
+        //CHess
       // create properties file for kafka
         Properties properties = new Properties();
 /* This is the old way of setting properties
